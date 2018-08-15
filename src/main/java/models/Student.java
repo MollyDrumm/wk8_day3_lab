@@ -104,4 +104,8 @@ public class Student {
     public void setMentor(Mentor mentor) {
         this.mentor = mentor;
     }
+
+    public void addLesson(Lesson lesson){
+        this.lessons.add(lesson);
+    }
 }
